@@ -5,8 +5,6 @@ This project implements plant leaf disease segmentation using deep learning, spe
 - `428-bifpn-segment.ipynb`: Notebook for U-Net with BiFPN model definition, training, and evaluation.
 - `unet_428_code.ipynb`: Baseline U-Net model training and evaluation.
 - `428-project-compare.ipynb`: Comparison and visualization of predictions from both models.
-- `unet_model.h5`: Saved weights for the baseline U-Net model.
-- `unet_with_BiFPN.h5`: Saved weights for the U-Net with BiFPN model.
 - `segmentation project slides.pptx`: Project presentation slides.
 
 ## Model Architectures

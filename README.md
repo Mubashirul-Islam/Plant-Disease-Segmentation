@@ -37,20 +37,6 @@ This project implements plant leaf disease segmentation using deep learning, spe
 3. **Comparison & Visualization**
    - Use 428-project-compare.ipynb to load both models and visualize predictions on unseen images.
 
-## Example: Visualizing Model Predictions
-
-The comparison notebook loads both models and visualizes their predictions:
-
-```python
-mod_u = load_model('unet_model.h5')
-mod_b = load_model('unet_with_BiFPN.h5')
-
-image, pred_unet = predict_unseen_image(mod_u, image_path, 128, 128)
-_, pred_bifpn = predict_unseen_image(mod_b, image_path, 128, 128)
-
-visualize_comparison(image, pred_unet, pred_bifpn)
-```
-
 ## Results
 
 - The U-Net with BiFPN generally achieves higher segmentation accuracy and better generalization on unseen images compared to the baseline U-Net.
